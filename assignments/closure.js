@@ -1,6 +1,17 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function fullName() {
+  const fName = "derek";
+  console.log(fName);
+  function name(){
+    const lName = "schwantner"
+    console.log(lName);
+  }
+name();
+}
+
+fullName();
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
